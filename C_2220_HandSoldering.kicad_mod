@@ -16,7 +16,7 @@
   (fp_line (start -2.3 2.725) (end 2.3 2.725) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -3.5 0) (size 2.4 5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.5 0) (size 2.4 5) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD/C_2220Y.wrl
+  (model Capacitors_SMD/C_2220_HandSoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

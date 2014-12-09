@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "SMT capacitor, aluminium electrolytic, 6.3x5.7")
   (fp_text reference c_elec_6.3x5.7 (at 0 -3.937) (layer F.SilkS)
-    (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value C*** (at 0 3.81) (layer F.SilkS) hide
-    (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
+  (fp_text value VAL** (at 0 3.81) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.921 -0.762) (end -2.921 0.762) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.794 1.143) (end -2.794 -1.143) (layer F.SilkS) (width 0.15))
@@ -23,7 +23,7 @@
   (fp_line (start 1.778 -0.381) (end 1.778 0.381) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at 2.75082 0) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.75082 0) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD/c_elec_6_3x5_7.wrl
+  (model Capacitors_SMD/c_elec_6.3x5.7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
