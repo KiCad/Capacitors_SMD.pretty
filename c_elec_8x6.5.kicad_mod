@@ -1,5 +1,6 @@
 (module c_elec_8x6.5 (layer F.Cu) (tedit 55729663)
   (descr "SMT capacitor, aluminium electrolytic, 8x6.5")
+  (attr smd)
   (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
