@@ -1,4 +1,4 @@
-(module c_elec_6.3x5.3 (layer F.Cu) (tedit 57F58C1D)
+(module c_elec_6.3x5.3 (layer F.Cu) (tedit 57FA457B)
   (descr "SMT capacitor, aluminium electrolytic, 6.3x5.3")
   (attr smd)
   (fp_text reference REF** (at 0 4.5593) (layer F.SilkS)
@@ -33,8 +33,8 @@
   (fp_line (start -2.54 3.302) (end -3.302 2.54) (layer F.SilkS) (width 0.15))
   (fp_line (start -3.302 -2.54) (end -2.54 -3.302) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.54 -3.302) (end 3.302 -3.302) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2.75082 0 180) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.75082 0 180) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.7 0 180) (size 3.5 1.6) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.7 0 180) (size 3.5 1.6) (layers F.Cu F.Paste F.Mask))
   (model Capacitors_SMD.3dshapes/c_elec_6.3x5.3.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
