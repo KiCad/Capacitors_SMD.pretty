@@ -1,10 +1,10 @@
-(module CP_10x7.7 (layer F.Cu) (tedit 57FA4B25)
-  (descr "SMT capacitor, aluminium electrolytic, 10x7.7")
+(module CP_Elec_10x10.5 (layer F.Cu) (tedit 57FA4AE4)
+  (descr "SMT capacitor, aluminium electrolytic, 10x10.5")
   (attr smd)
   (fp_text reference REF** (at 0 6.4643) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CP_10x7.7 (at 0 -6.4643) (layer F.Fab)
+  (fp_text value CP_Elec_10x10.5 (at 0 -6.4643) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -5.207 -4.445) (end -5.207 -1.5621) (layer F.SilkS) (width 0.12))
@@ -35,7 +35,7 @@
   (fp_line (start -4.445 -5.207) (end 5.207 -5.207) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -4 0 180) (size 4 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4 0 180) (size 4 2.5) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD.3dshapes/CP_10x7.7.wrl
+  (model Capacitors_SMD.3dshapes/CP_Elec_10x10.5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
